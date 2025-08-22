@@ -5,6 +5,7 @@ tasks:
       cd bucketlistapp
       npm install
       npm run dev
+      npm create amplify@latest -y
    # command: |
    #   npm start # Starts a Node.js server
   #  rails s -b 0.0.0.0 # Starts a Ruby on Rails server accessible externally
