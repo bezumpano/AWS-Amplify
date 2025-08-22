@@ -2,7 +2,7 @@ tasks:
   - name: Install Dependencies and Start Server
     init: |
       npm create vite@latest bucketlistapp -- --template react
-      y
+      yes | bash ./install.sh
       cd bucketlistapp
    # command: |
    #   npm start # Starts a Node.js server
