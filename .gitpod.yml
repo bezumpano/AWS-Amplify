@@ -1,7 +1,7 @@
 tasks:
   - name: Install Dependencies and Start Server
     init: |
-      npm create vite@latest bucketlistapp -- --template react --assume-yes
+      npm create vite@latest bucketlistapp --assume-yes -- --template react
    # command: |
    #   npm start # Starts a Node.js server
   #  rails s -b 0.0.0.0 # Starts a Ruby on Rails server accessible externally
