@@ -4,6 +4,7 @@ tasks:
       yes | npm create vite@latest bucketlistapp --assume-yes -- --template react
       cd bucketlistapp
       npm install
+      npm run dev
    # command: |
    #   npm start # Starts a Node.js server
   #  rails s -b 0.0.0.0 # Starts a Ruby on Rails server accessible externally
