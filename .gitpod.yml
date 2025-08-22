@@ -3,7 +3,6 @@ tasks:
     init: |
       npm create vite@latest bucketlistapp -- --template react
       yes | bash ./install.sh
-      cd bucketlistapp
    # command: |
    #   npm start # Starts a Node.js server
   #  rails s -b 0.0.0.0 # Starts a Ruby on Rails server accessible externally
